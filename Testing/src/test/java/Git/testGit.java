@@ -9,5 +9,10 @@ public class testGit {
 		System.out.println("Git and Git Hub");
 		System.out.println("Sai Preetham");
 	}
+	
+	@Test(priority = 2)
+	public void b() {
+		System.out.println("QWERTYU");
+			}
 
 }
